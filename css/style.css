@@ -1,3 +1,4 @@
+
 .section-1 {
     padding-top: 56px;
 }
@@ -22,5 +23,58 @@
     margin-left: 1%;
     margin-right: 1%;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.60);
+}
 
+.navigation, .dropdown-menu {
+    background-color: rgb(153, 0, 0) !important;
+}
+
+.dropdown-item, .navbar-brand {
+    color: rgb(255, 238, 99) !important;
+}
+
+.dropdown-item:hover {
+    color: rgb(153, 0, 0) !important;
+    background-color: rgb(255, 238, 99) !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 238, 99) !important;
+}
+
+.btn-outline-own {
+    color: rgb(255, 238, 99) !important;
+    border: 1px solid rgb(255, 238, 99) !important;
+}
+
+.btn-outline-own:hover {
+    color: rgb(153, 0, 0) !important;
+    border: 1px solid rgb(153, 0, 0) !important;
+    background-color: rgb(255, 238, 99);
+}
+
+.breadcrumb {
+    background-color: white !important;
+}
+
+.breadcrumb a {
+    color: rgb(153, 0, 0) !important;
+}
+
+.breadcrumb-item.active {
+    color: rgb(255, 91, 0) !important;
+}
+
+h2 {
+    color: rgb(255, 91, 0)
+}
+
+.btn-red {
+    background-color: rgb(153, 0, 0);
+    color: rgb(255, 238, 99);
+}
+
+.btn-red:hover {
+    background-color: rgb(255, 238, 99);
+    color: rgb(153, 0, 0);
 }
