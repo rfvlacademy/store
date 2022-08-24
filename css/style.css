@@ -1,0 +1,26 @@
+.section-1 {
+    padding-top: 56px;
+}
+
+.filter {
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.card {
+    border: 2px solid black !important;
+}
+
+.product-item {
+    float: left;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.60);
+
+}
