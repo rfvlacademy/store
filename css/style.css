@@ -78,3 +78,13 @@ h2 {
     background-color: rgb(255, 238, 99);
     color: rgb(153, 0, 0);
 }
+
+.sidebar {
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    min-width: 220px;
+    z-index: 1;
+    margin-top: -6px;
+}
