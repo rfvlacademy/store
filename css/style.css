@@ -118,6 +118,14 @@ h2 {
     border: 0px;
 }
 
+.thumbnail {
+    padding-top: 10px;
+}
+
+hr {
+    background-color: rgb(153, 0, 0) !important;
+}
+
 @media (max-width: 576px) {
     .product-item {
         width: 98%;
